@@ -69,106 +69,168 @@ export const gridItems = [
   },
 ];
 
+// const iconPaths = {
+//   React: "/re.svg",
+//   Tailwind: "tail.svg",
+//   TypeScript: "/ts.svg",
+//   Bootstrap: "/bootstrap.svg",
+//   SCSS: "/scss.svg",
+//   JavaScript: "/javascript.png",
+//   Vite: "/vite.svg",
+//   HTML: "/html.svg",
+//   CSS: "/css.svg",
+//   YouTube: "/youtube.svg",
+// };
 export const projects = [
+  // First project
   {
     id: 1,
-    title: "Route Academy Exam Achievement  Top Scorer",
+    title: "Route Academy Exam Achievement - Top Scorer",
     des: "Secured the highest score of 104/100 in the Route Academy exam, showcasing exceptional web development expertise and problem-solving skills.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/Exam.jpg",
+    iconLists: [
+      "/bootstrap.svg",
+      "/javascript.png",
+      "/scss.svg",
+      "/html.svg",
+      "/css.svg",
+    ],
     link: "https://bit.ly/3YP3rOI",
   },
+
+  // Second project - Electrified Project
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Electrified Project - Dynamic Learning Website",
+    des: "A website designed for learning purposes, showcasing dynamic components and responsive design.",
+    img: "/Electrified.jpg",
+    iconLists: [
+      "/re.svg",
+      "/bootstrap.svg",
+      "/scss.svg",
+      "/javascript.png",
+      "/html.svg",
+      "/css.svg",
+    ],
+    link: "https://electrifiedproject.vercel.app/",
   },
+
+  // Fourth project - Graduation Project: Film Details Section
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Graduation Project - Film Details Section",
+    des: "Part of the Digital Egypt Pioneers Initiative, focusing on designing a responsive Film Details section with customizable components.",
+    img: "/FilmDetails.jpg",
+    iconLists: ["/re.svg", "/vite.svg", "/bootstrap.svg", "/scss.svg"],
+    link: "https://movies-app-zeta-one.vercel.app/",
   },
+  // Third project - Bookmark Management App
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Bookmark Management App - Easy Bookmarking",
+    des: "A CRUD application with validation, allowing users to manage bookmarks efficiently and visit sites directly.",
+    img: "/BookmarkApp.png",
+    iconLists: ["/html.svg", "/css.svg", "/javascript.png"],
+    link: "https://abdomahmoudgit.github.io/assignment9Route/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I worked with Abdelrahman on our graduation project, where he was responsible for the frontend development. Honestly, he is a highly dedicated and skilled developer who understands his work well and executes tasks efficiently. He tackles challenges with practical and quick solutions while always striving to enhance the final product. Based on my experience working with him, I’d rate him 4.9 out of 5, and I highly recommend him for any team in need of a proficient frontend developer.",
+    name: "Eng. Ahmed Yasser",
+    title: "Frontend Engineer",
+    img: "/ahmedyaser.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Eng. Abdelrahman is incredibly disciplined in his work and demonstrates strong leadership within the team. He is highly cooperative and never hesitates to share his knowledge with others. In fact, he has conducted full sessions explaining topics we were unfamiliar with. May Allah bless him and grant him success. ❤️❤️❤️",
+    name: "Eng. Abdullah Mohamed",
+    title: "Frontend Engineer",
+    img: "/AbdullahMohamed.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "One of Abdelrahman’s greatest strengths is his ability to listen attentively and absorb knowledge from everyone around him. He has an incredible passion for learning and continuously seeks to expand his expertise from every possible source. His adaptability and curiosity make him a well-rounded developer. His dedication to improvement and staying ahead in the field allows him to make well-informed decisions in both his professional and personal life.",
+    name: "Eng. Abdullah Samir",
+    title: "Backend Engineer",
+    img: "/unknown.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Abdelrahman has been a fantastic experience. He is truly one of the best! When it comes to leadership, he is absolutely top-notch. His ability to organize and structure everything is remarkable. If he ever considers pursuing a leadership role, I highly recommend it—he has all the qualities of a great leader. His communication skills, organization, and ability to create engaging content are outstanding. Honestly, hats off to him! This is not just a compliment; it’s based on my firsthand experience working with him.",
+    name: "Youssef Shaaban",
+    title: "Full Stack Developer",
+    img: "/unknown.jpg",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
 ];
-
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Al-azhar University",
+    img: "/AU.jpg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Route Academy",
+    img: "/Route.jpg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "DEPI",
+    img: "/depiEN.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Edraak",
+    img: "/EDraak.jpg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Azhar University Hostel",
+    img: "/Unihousing.jpg",
   },
 ];
+
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "cloudinary",
+//     img: "/cloud.svg",
+//     nameImg: "/cloudName.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "appwrite",
+//     img: "/app.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "HOSTINGER",
+//     img: "/host.svg",
+//     nameImg: "/hostName.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "stream",
+//     img: "/s.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {
