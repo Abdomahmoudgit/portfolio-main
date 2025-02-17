@@ -9,7 +9,7 @@ const Footer = () => {
     <footer
       className="w-full  pt-20 pb-10"
       id="contact"
-      style={{ backgroundImage: "url(/footer-grid.svg)", height: "70vh" }}
+      style={{ backgroundImage: "url(/footer-grid.svg)" }}
     >
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
