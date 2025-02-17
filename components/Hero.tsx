@@ -3,7 +3,7 @@ import NextImage from "next/image";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import img from "../public/HeroImage_enhanced.png";
+import img from "../public/mineImage.png";
 import Typed from "typed.js";
 import { useEffect } from "react";
 
@@ -69,7 +69,7 @@ const Hero = () => {
           alt="Abdurrahman Al-Azhari"
           width={200} // Adjust width
           height={200} // Adjust height
-          className="rounded-full relative z-10 border-4 border-white shadow-lg mb-4"
+          className="rounded-full relative z-10 border-4 border-white shadow-lg mb-4 transition-transform transform hover:scale-105 "
         />
         <p className="text-center  relative md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
           Hi! I&apos;m Abdurrahman Al-Azhari,a professional
